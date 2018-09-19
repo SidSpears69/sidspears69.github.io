@@ -268,6 +268,9 @@ textarea {
 }
 .conditions__group {
   padding-top: 18px;
+  width: 88%;
+  max-width: 365px;
+  margin: 0 auto;
 }
 .conditions__img {
   padding: 0;
@@ -978,6 +981,11 @@ textarea {
   .page-main {
     margin-right: 0;
   }
+  .conditions__group {
+    width: 95%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
   .conditions {
     display: flex;
     flex-wrap: wrap;
@@ -1595,6 +1603,11 @@ textarea {
   .page-main {
     width: 88%;
     max-width: 365px;
+    margin: 0 auto;
+  }
+  .conditions__group {
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
   }
   .conditions {
